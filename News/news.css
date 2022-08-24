@@ -1,0 +1,39 @@
+  ul {
+    list-style: none;
+  }
+ul article{
+    float:left;
+   display: block;
+    padding-right:20px;
+    width: 190px;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 0.4cm;
+    border-style: none solid none none;
+    border-width: 1.5px;
+    border-color:darkgrey;
+}
+.last{
+    float:left;
+    padding-right:20px;
+    width: 190px;
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 0.4cm;
+    border-style: none;
+}
+h1{
+    padding-left: 50px;
+}
+p{
+    padding-left: 10px;
+}
+figcaption{
+    color: grey;
+    text-justify: auto;
+    font-size: 0.3cm;
+    padding-left: 10px;
+}
+figure{
+    margin: 0px;
+}
