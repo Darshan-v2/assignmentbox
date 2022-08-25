@@ -1,0 +1,74 @@
+* {
+    margin: 0%;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    background-color: #313131;
+}
+
+.call {
+    padding-right: 15px;
+}
+
+.mail {
+    padding-right: 25px;
+}
+
+.info {
+    display: inline;
+    border-bottom: 2px solid #fe1800;
+    padding-bottom: 12px;
+    margin-left: 280px;
+    padding-left: 5px;
+}
+
+.socialmedia {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    word-spacing: 20px;
+    padding-top: 3px;
+    border-bottom: 2px solid #fe1800;
+    width: 180px;
+    padding-left: 8px;
+    margin-right: 280px;
+}
+
+.imgcontainer {
+    position: relative;
+    text-align: center;
+}
+
+.savethelife {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 550px;
+    text-align: justify;
+}
+
+.header1 {
+    background-color: white;
+}
+
+.navbar{
+    padding-bottom: 12px;
+    margin-left: 280px;
+    padding-left: 5px;
+}
+
+.donatebutton {
+    float: right;
+    margin-right: 280px;
+    color: #fe1800;
+    font-size: 18px;
+    background-color: white;
+    border-style: solid;
+    border-color: #fe1800;
+}
