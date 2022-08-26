@@ -22,7 +22,7 @@ ul {
     display: inline;
     border-bottom: 2px solid #fe1800;
     padding-bottom: 12px;
-    margin-left: 280px;
+    margin-left: 310px;
     padding-left: 5px;
 }
 
@@ -35,40 +35,159 @@ ul {
     border-bottom: 2px solid #fe1800;
     width: 180px;
     padding-left: 8px;
-    margin-right: 280px;
+    margin-right: 310px;
 }
 
-.imgcontainer {
-    position: relative;
+.navbar {
     text-align: center;
+    line-height: 10px;
 }
 
-.savethelife {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    width: 550px;
-    text-align: justify;
+.navel {
+    display: inline-block;
+    width: 100px;
 }
 
 .header1 {
     background-color: white;
 }
 
-.navbar{
-    padding-bottom: 12px;
-    margin-left: 280px;
-    padding-left: 5px;
+.companyname {
+    position: relative;
+    top: 25px;
+    left: 310px;
+    font-size: 20px;
 }
 
 .donatebutton {
+    position: relative;
+    bottom: 20px;
     float: right;
-    margin-right: 280px;
+    margin-right: 320px;
     color: #fe1800;
     font-size: 18px;
     background-color: white;
     border-style: solid;
     border-color: #fe1800;
+    width: 160px;
+    height: 37px;
+    bottom: 30px;
+
+}
+
+.imgcontainer {
+    position: relative;
+
+}
+
+.savethelife {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 600px;
+    height: 130px;
+    border: 2px solid white;
+
+}
+
+.savethelife1 {
+    font-size: 50px;
+    border-bottom: 3px solid #fe1800;
+}
+
+.savetext {
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.readmore {
+    width: 130px;
+    height: 35px;
+    padding-top: 16px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+    position: absolute;
+    top: 61.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#name {
+    font-size: 12px;
+    background-color: #f1f1f1;
+    border-style: none;
+    width: 207px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+#username {
+    font-size: 12px;
+    background-color: #f1f1f1;
+    border-style: none;
+    width: 207px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.submit {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-left: 470px;
+    width: 255px;
+    height: 310px;
+    padding-top: 35px;
+    padding-left: 51px;
+    padding-right: 22px;
+    box-shadow: 1px 1px 10px 1px #888888;
+    background-color: white;
+}
+
+.submitbutton {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    border-color: #fe1800;
+    border-width: 1px;
+    border-style: none;
+    background-color: #fe5000;
+    width: 218px;
+    height: 33px;
+}
+
+.message{
+    margin-left: 660px;
+    margin-top: 26px;
+    width: 710px;
+    line-height: 23px;
+}
+
+.leave{
+    border-bottom: 1px solid #fe1800;
+    padding-bottom: 4px;
+}
+
+.container{
+    display: inline-block;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    padding-top: 10px;
+    width: 234px;
+}
+
+.insidecontainer{
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+    font-size: 20px;
+    width: 25px;
+    height: 20px;
+    text-align: center;
 }
