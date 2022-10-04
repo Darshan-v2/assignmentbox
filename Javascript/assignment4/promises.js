@@ -1,34 +1,50 @@
 const task1 =
     new Promise(function (resolve, reject) {
         setTimeout(function () {
-            resolve('Hello');
+            resolve(console.log('Result 1'));
         }, 1000)
     });
 
 const task2 =
     new Promise(function (resolve, reject) {
         setTimeout(function () {
-            resolve('Hello World');
+            resolve(console.log('Result 2'));
         }, 1000)
     });
 
 const task3 =
     new Promise(function (resolve, reject) {
         setTimeout(function () {
-            resolve('Hello World Hello World');
+            resolve(console.log('Result 3'));
         }, 1000)
     });
 
-    let promise = async () => {
-        for (let promise of [task1, task2,task3]) {
-            try {
-                const print = await promise;
-                console.log(print);
-            } catch (error) {
-                console.log(error.message);
-            }
-        }
-    }; 
-promise();
+const tasks = [task1, task2, task3]
 
+
+    // function seq(tasks) {
+    //    if (tasks && tasks.length > 0) {
+    //      var task = tasks.shift();
+    //     // console.log(task);
+
+    //      return task().then(function() {
+    //        return seq(tasks);
+    //      });
+    //    }
+    //    return Promise.resolve();
+    //  };
+
+    //  console.log(seq(tasks));
+
+
+    const square = async (x) => Math.pow(x, 2);
+    const output = async () => {
+        const nums = [1, 2, 3, 4,];
+        const promiseArray = nums.map(x => square(x));
+    
+        const resolvedPromises = await Promise.all(promiseArray);
+        console.log(resolvedPromises);
+    };
+    
+    output();
 
