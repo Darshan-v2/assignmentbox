@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>To-Do-List</h1>
+    </header>
+    <div class="container">
+        <div id="card-add-items" class="card-add">
+
+            <form id="add-form" class="form">
+                <h2>Add Task</h2>
+                <input type="text" id="additem" class="form-item" placeholder="Add Task...">
+                <input type="submit" class="btn-submit" value="Submit">
+                <span id="error"></span>
+            </form>
+        </div>
+
+        <div id="card-items-list" class="card-list">
+            <h2>Task List</h2>
+            <ul id="task-list" class="list_items">
+                    <li class="list-tasks" draggable="true">Task 1<button class="btn-delete">X</button></li>
+                    <li class="list-tasks" draggable="true">Task 2<button class="btn-delete">X</button></li>
+                    <li class="list-tasks" draggable="true">Task 3<button class="btn-delete">X</button></li>
+                    <li class="list-tasks" draggable="true">Task 4<button class="btn-delete">X</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="drag.js"></script>
+</body>
+
+</html>
